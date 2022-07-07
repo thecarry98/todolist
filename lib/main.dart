@@ -90,6 +90,10 @@ class _homeState extends State<Home> {
   }
 
   int index = 0;
+  void initState() {
+    index = 1;
+  }
+
   Widget build(BuildContext context) {
     List<Widget> listWidget = [
       CompleteTask(listComp),
