@@ -17,6 +17,14 @@ class Note {
   bool? check;
   Note({this.id, this.title, this.check});
 
+  getCheck() {
+    return check;
+  }
+
+  setCheck(bool c) {
+    check = c;
+  }
+
   Note copy({
     int? id,
     String? title,

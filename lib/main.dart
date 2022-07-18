@@ -7,6 +7,7 @@ import 'package:todolist/model/note.dart';
 import 'package:flutter/services.dart';
 import 'package:todolist/db/notes_database.dart';
 import 'package:todolist/pages/home_page.dart';
+import 'package:todolist/pages/home_page_test.dart';
 
 void main() async {
   //WidgetsFlutterBinding.ensureInitialized(),
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'My App',
-      home: Home(),
+      home: HomePageTest(),
       //routes:
     );
   }
